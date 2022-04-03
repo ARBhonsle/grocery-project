@@ -1,8 +1,6 @@
 package com.example.paymentGateway;
 
-import com.example.inventory.InventoryActions;
-
-public interface ICart extends InventoryActions {
+public interface ICart {
      void addProduct(String productCode);
      void removeProduct(String productCode);
      void checkout();
